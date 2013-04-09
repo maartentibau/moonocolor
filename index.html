@@ -3,11 +3,11 @@
     <!-- head -->
     <head>
         <!-- title -->
-        <title>Moon Color: custom skin for CKEditor 4.x</title>
+        <title>Moono Color - A custom skin for CKEditor 4.x</title>
         <!-- meta -->
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta name="description" content="Moono Color is a custom skin for CKEditor 4.x" />
-        <meta name="keywords" content="Moono Color,moonocolor,CKEditor skin,CKEditor 4.1" />
+        <meta name="keywords" content="Moono Color,moonocolor,CKEditor skin,CKEditor 4.x" />
         <meta name="author" content="Maarten Tibau - Webtrix" />
         <meta name="googlebot" content="index, nofollow, noarchive" />
         <meta name="robots" content="index, follow, noarchive" />
@@ -19,13 +19,23 @@
         <!-- google analytics async -->
         <script type="text/javascript">
             var _gaq = _gaq || [];
-                _gaq.push(['_setAccount', 'UA-27502654-10'],
+                _gaq.push(['_setAccount', 'UA-6353804-39'],
                       ['_trackPageview']);
         </script>
     </head>
     <!-- /head -->
     <body>
-
+        <h1>Moono Color Skin - A custom skin for CKEditor 4.x</h1>
+        <div class="editor">
+            <textarea id="ckeditor"></textarea>
+        </div>
+        <!-- CKEditor -->
+        <script type="text/javascript">
+            $(document).ready(function() {
+                CKEDITOR.replace('ckeditor',{skin:'moonocolor',resize_enabled:0,toolbarCanCollapse:0,startupShowBorders:0,enterMode:1});CKEDITOR.add;
+            });
+        </script>
+        <!-- /CKEditor -->
         <!-- bottom javascript -->
         <script type="text/javascript" src="http://www.webtrix.be/moonocolor/js/ckeditor_4.1.0/ckeditor.js"></script>
         <!-- async loading scripts & google analytics -->

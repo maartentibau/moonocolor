@@ -1,7 +1,8 @@
 "Moono Color" Skin
 ====================
 
-This skin is based on the default skin of CKEditor "Moono", but this skin has beautiful colored icons :-)
+Based on the offical skin of CKEditor "Moono".  All the icons have been changed using [FAMFAMFAM](http://www.famfamfam.com) icons and some that I created myself. 
+This skin brings some color to your toolbar! :-)
 
 For more information about skins, please check the [CKEditor Skin SDK](http://docs.cksource.com/CKEditor_4.x/Skin_SDK)
 documentation.
